@@ -1,0 +1,17 @@
+Theme 1:
+
+--text: #ffffff;
+--background: #25274d;
+--primary: #2e9cca;
+--secondary: #aaabb8;
+--accent: 131641;
+
+
+
+Theme 2: 
+--text: #123c69;
+--background: #eee2dc;
+--primary: #edc7b7;
+--secondary: #dedcff;
+--accent: #ac3b61;
+
