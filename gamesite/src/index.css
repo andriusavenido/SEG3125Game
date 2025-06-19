@@ -1,5 +1,4 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -11,5 +10,19 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --text: #123c69;
+--background: #eee2dc;
+--primary: #edc7b7;
+--secondary: #dedcff;
+--accent: #ac3b61;
+}
+
+body{
+  background-color: var(--background);
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
