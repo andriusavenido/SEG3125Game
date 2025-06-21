@@ -13,10 +13,10 @@ const Navbar: React.FC = () => {
                 <Link to="/game" className="nav-link text-dark fs-5 fw-medium mx-3 ">the memory test</Link>
             </li>
              <li className="nav-item">
-                <Link to="/" className="nav-link text-dark fs-5 fw-medium mx-3 ">other games</Link>
+                <Link to="/selection" className="nav-link text-dark fs-5 fw-medium mx-3 ">other games</Link>
             </li>
              <li className="nav-item">
-                <Link to="/" className="nav-link text-dark fs-5 fw-medium mx-3 ">leaderboards</Link>
+                <Link to="/leaderboard" className="nav-link text-dark fs-5 fw-medium mx-3 ">leaderboards</Link>
             </li>
         </ul>
     </div>
