@@ -125,10 +125,10 @@ const Game: React.FC = () => {
     };
 
     useEffect(() => {
-        if (!gameOver) {
-            showNewItem();
-        }
-    }, [score, gameOver]);
+    if (started && level !== null && !gameOver && currentItem === null) {
+        showNewItem();
+    }
+    }, [started, level, gameOver, currentItem]);
 
     const handleSeen = () => {
         if (!currentItem) return;
@@ -156,12 +156,13 @@ const Game: React.FC = () => {
     };
 
     const resetGame = () => {
-        setScore(0);
-        setSeen([]);
-        setGameOver(false);
-        setLevel(null);
-        setStarted(false);
-    };
+    setScore(0);
+    setSeen([]);
+    setGameOver(false);
+    setLevel(null);
+    setStarted(false);
+    setCurrentItem(null);
+};
 
     if (!started) {
         return (<div className="container mt-3">
